@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  font-style: normal;
+  font-family: "Inter";
+  max-width: 550px;
+}
+.header {
+  color: white;
+  width: 550px;
+  height: 55px;
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.header--name {
+  margin-left: 7px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+.main {
+  margin-top: 36px;
+  margin-left: 40px;
+  margin-bottom: 28px;
+  color: #2b283a;
+  font-size: 10px;
+  line-height: 12px;
+  max-width: 470px;
+  display: flex;
+  align-items: center;
+}
+.desc--section {
+  margin-left: 19px;
+}
+.main--img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+.main--state {
+  margin-left: 4px;
+  font-weight: 400;
+  letter-spacing: 0.17em;
+}
+.main--maps {
+  margin-left: 12px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+.main--name {
+  margin: 7px 0;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+.main--date {
+  margin-bottom: 9px;
+  font-weight: 700;
+}
+.main--desc {
+  font-weight: 400;
+  font-size: 10px;
+  max-width: 326px;
+  line-height: 15px;
+}
